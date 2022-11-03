@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    /* background-color: #373737; */
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -11,18 +13,24 @@ html {
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: #c0b283;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #f4f4f4;
     line-height: 2.5em;
 }
 
+/*Adds google font to H1 for main pages*/
+h1.page-header{
+    font-family: 'Montserrat', serif;
+}
+
+
 main.wrapper {
-    background-color: white;
+    background-color: #f4f4f4;
     overflow: auto;
 }
 
@@ -37,13 +45,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#ab9353;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: #f4f4f4;
+    background-color: #dcd0c0;
     text-decoration: none;
 }
 
