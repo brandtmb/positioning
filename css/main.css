@@ -11,6 +11,9 @@ html {
     line-height: 1.5em;
 }
 
+body{
+    margin:0
+}
 ::selection {
     color: #000; 
     background: #c0b283;
